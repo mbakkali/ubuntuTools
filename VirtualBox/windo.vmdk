@@ -1,0 +1,31 @@
+# Disk DescriptorFile
+version=1
+CID=b835f676
+parentCID=ffffffff
+createType="partitionedDevice"
+
+# Extent description
+RW 63 FLAT "windo-pt.vmdk" 0
+RW 1985 ZERO 
+RW 487276544 ZERO 
+RW 464435200 FLAT "/dev/sda" 487278592
+RW 2046 ZERO 
+RW 2 FLAT "windo-pt.vmdk" 63
+RW 25055232 ZERO 
+RW 2096 ZERO 
+
+# The disk Data Base 
+#DDB
+
+ddb.virtualHWVersion = "4"
+ddb.adapterType="ide"
+ddb.geometry.cylinders="16383"
+ddb.geometry.heads="16"
+ddb.geometry.sectors="63"
+ddb.uuid.image="374a22a4-62b6-4b23-b1a3-950944f10ede"
+ddb.uuid.parent="00000000-0000-0000-0000-000000000000"
+ddb.uuid.modification="d27cdf17-42a7-4f02-b035-fa5b7809fafd"
+ddb.uuid.parentmodification="00000000-0000-0000-0000-000000000000"
+ddb.geometry.biosCylinders="1024"
+ddb.geometry.biosHeads="255"
+ddb.geometry.biosSectors="63"
